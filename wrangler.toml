@@ -1,0 +1,16 @@
+name = "frank-digital-twin"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+[ai]
+binding = "AI"
+
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "frank-twin-index"
+remote = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "frank-twin-db"
+database_id = "502d4876-68eb-4063-a238-912dd99f7fd0"
